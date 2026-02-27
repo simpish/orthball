@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="380mm" height="370mm" viewBox="0 0 380 370">
+<!-- OrthBall Unified V1 - One-piece keyboard with 55mm trackball -->
+
+<!-- ===== VIEW 1: TOP PLATE ===== -->
+<g id="top-plate" transform="translate(5,5)">
+  <!-- Plate background with trackball cutout area -->
+  <rect x="0" y="0" width="310" height="100" rx="3" ry="3" fill="#999" stroke="#666" stroke-width="0.5"/>
+  <!-- Trackball area extension -->
+  <rect x="244" y="0" width="66" height="100" rx="0" ry="0" fill="#999" stroke="none"/>
+  <path d="M310,0 L340,0 Q370,0 370,30 L370,70 Q370,100 340,100 L310,100 Z" fill="#999" stroke="#666" stroke-width="0.5"/>
+
+  <!-- Left hand: 6x4 grid -->
+  <!-- Row 1 -->
+  <rect x="5.525" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="24.575" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="43.625" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="62.675" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="81.725" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="100.775" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <!-- Row 2 -->
+  <rect x="5.525" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="24.575" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="43.625" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="62.675" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="81.725" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="100.775" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <!-- Row 3 -->
+  <rect x="5.525" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="24.575" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="43.625" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="62.675" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="81.725" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="100.775" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <!-- Row 4 -->
+  <rect x="5.525" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="24.575" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="43.625" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="62.675" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="81.725" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="100.775" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+
+  <!-- Left thumb keys (3 keys, slight fan) -->
+  <g transform="translate(52.15,85) rotate(-10,7,7)">
+    <rect x="0" y="0" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  </g>
+  <g transform="translate(71.2,83) rotate(-5,7,7)">
+    <rect x="0" y="0" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  </g>
+  <rect x="90.25" y="81.725" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+
+  <!-- Right hand: 6x4 grid (offset by 10mm gap from left) -->
+  <!-- Row 1 -->
+  <rect x="124.825" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="143.875" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="162.925" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="181.975" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="201.025" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="220.075" y="5.525" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <!-- Row 2 -->
+  <rect x="124.825" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="143.875" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="162.925" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="181.975" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="201.025" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="220.075" y="24.575" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <!-- Row 3 -->
+  <rect x="124.825" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="143.875" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="162.925" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="181.975" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="201.025" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="220.075" y="43.625" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <!-- Row 4 -->
+  <rect x="124.825" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="143.875" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="162.925" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="181.975" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="201.025" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <rect x="220.075" y="62.675" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+
+  <!-- Right thumb keys (3 keys, slight fan) -->
+  <rect x="134.825" y="81.725" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  <g transform="translate(153.875,83) rotate(5,7,7)">
+    <rect x="0" y="0" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  </g>
+  <g transform="translate(172.925,85) rotate(10,7,7)">
+    <rect x="0" y="0" width="14" height="14" fill="white" stroke="#888" stroke-width="0.3"/>
+  </g>
+
+  <!-- Trackball hole (56mm cutout) -->
+  <circle cx="310" cy="40" r="28" fill="white" stroke="#888" stroke-width="0.5"/>
+
+  <!-- Choc keys around trackball (smaller 13.8mm) -->
+  <!-- Upper 2 -->
+  <rect x="295.1" y="5" width="13.8" height="13.8" rx="1" fill="#ddd" stroke="#888" stroke-width="0.3"/>
+  <rect x="311.1" y="5" width="13.8" height="13.8" rx="1" fill="#ddd" stroke="#888" stroke-width="0.3"/>
+  <!-- Lower 4 -->
+  <rect x="283" y="72" width="13.8" height="13.8" rx="1" fill="#ddd" stroke="#888" stroke-width="0.3"/>
+  <rect x="299" y="76" width="13.8" height="13.8" rx="1" fill="#ddd" stroke="#888" stroke-width="0.3"/>
+  <rect x="315" y="76" width="13.8" height="13.8" rx="1" fill="#ddd" stroke="#888" stroke-width="0.3"/>
+  <rect x="331" y="72" width="13.8" height="13.8" rx="1" fill="#ddd" stroke="#888" stroke-width="0.3"/>
+</g>
+
+<!-- ===== VIEW 2: CASE TOP VIEW ===== -->
+<g id="case-top" transform="translate(5,125)">
+  <!-- Case outline -->
+  <rect x="0" y="0" width="318" height="108" rx="5" ry="5" fill="#333" stroke="#222" stroke-width="0.5"/>
+  <!-- Trackball case extension -->
+  <path d="M318,0 L348,0 Q378,0 378,30 L378,78 Q378,108 348,108 L318,108 Z" fill="#333" stroke="#222" stroke-width="0.5"/>
+
+  <!-- Plate area inside -->
+  <rect x="4" y="4" width="310" height="100" rx="3" ry="3" fill="#999" stroke="none"/>
+  <path d="M314,4 L344,4 Q374,4 374,34 L374,74 Q374,104 344,104 L314,104 Z" fill="#999" stroke="none"/>
+
+  <!-- Trackball (55mm, red) -->
+  <circle cx="314" cy="44" r="27.5" fill="#cc3333" fill-opacity="0.8" stroke="#999" stroke-width="0.5"/>
+</g>
+
+<!-- ===== VIEW 3: SIDE PROFILE ===== -->
+<g id="side-profile" transform="translate(5,255)">
+  <!-- Scale: 2x vertical for visibility -->
+
+  <!-- Bottom plate -->
+  <rect x="0" y="96" width="240" height="4" fill="#333" rx="1"/>
+
+  <!-- Air gap 4mm = 8px -->
+
+  <!-- PCB -->
+  <rect x="2" y="84.8" width="236" height="3.2" fill="#008000"/>
+
+  <!-- Switch plate -->
+  <rect x="2" y="74.8" width="236" height="3" fill="#999"/>
+
+  <!-- MX Switch bodies (representative) -->
+  <rect x="20" y="61.6" width="10" height="13.2" fill="#555" rx="1"/>
+  <rect x="58" y="61.6" width="10" height="13.2" fill="#555" rx="1"/>
+  <rect x="96" y="61.6" width="10" height="13.2" fill="#555" rx="1"/>
+  <rect x="134" y="61.6" width="10" height="13.2" fill="#555" rx="1"/>
+
+  <!-- Keycaps -->
+  <rect x="16" y="45.6" width="18" height="16" fill="#bbb" rx="2"/>
+  <rect x="54" y="45.6" width="18" height="16" fill="#bbb" rx="2"/>
+  <rect x="92" y="45.6" width="18" height="16" fill="#bbb" rx="2"/>
+  <rect x="130" y="45.6" width="18" height="16" fill="#bbb" rx="2"/>
+
+  <!-- Trackball section -->
+  <!-- Cup -->
+  <path d="M260,100 L260,60 Q260,40 280,30 Q300,20 310,20 Q320,20 340,30 Q360,40 360,60 L360,100 Z" fill="#333" stroke="#222" stroke-width="0.5"/>
+  <!-- Ball (55mm = 110px at 2x) -->
+  <circle cx="310" cy="45" r="55" fill="#cc3333" fill-opacity="0.8" stroke="#999" stroke-width="0.5"/>
+  <!-- Sensor at bottom -->
+  <rect x="305" y="95" width="10" height="3" fill="#008000"/>
+
+  <!-- Height reference lines (pink) -->
+  <line x1="0" y1="45.6" x2="370" y2="45.6" stroke="#ff00ee" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="370" y2="100" stroke="#ff00ee" stroke-width="0.5" stroke-dasharray="2,2"/>
+</g>
+
+</svg>
