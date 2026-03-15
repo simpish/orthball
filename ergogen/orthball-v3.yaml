@@ -1,0 +1,61 @@
+# OrthBall v3c
+
+points:
+  key:
+    tags:
+      - key
+
+  zones:
+    matrix:
+      anchor:
+        shift: [150, -150]
+      columns:
+        c1:
+        c2:
+        c3.key.stagger: 0
+        c4.key.stagger: 0
+        c5.key.stagger: 0
+        c6.key.stagger: 0
+      rows:
+        r3:
+        r2:
+        r1:
+
+    thumbfan:
+      anchor:
+        - ref: matrix_c1_r3
+          shift: [u, -u]
+      columns:
+        c1:
+        c2.key:
+          spread: u
+        c3.key:
+          spread: u
+        c4.key:
+          spread: u
+        c5.key:
+          spread: u
+      rows:
+        r0:
+
+outlines:
+  _keycaps:
+    - what: rectangle
+      where: [key]
+      size: 18
+      fillet: 3
+
+  _keys:
+    - what: rectangle
+      where: /matrix/
+      size: u
+    - what: rectangle
+      where: /thumbfan/
+      size: u
+
+  preview:
+    - what: outline
+      name: _keys
+    - what: outline
+      name: _keycaps
+      operation: stack

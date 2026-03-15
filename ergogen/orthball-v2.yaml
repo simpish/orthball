@@ -1,0 +1,125 @@
+# OrthBall v2 - position fixes
+# 2026-02-22
+
+points:
+  key:
+    tags:
+      - key
+
+  zones:
+    # MAIN MATRIX - 6col x 3row ortholinear
+    matrix:
+      anchor:
+        shift: [150, -150]
+      columns:
+        c1:
+        c2:
+        c3.key.stagger: 0
+        c4.key.stagger: 0
+        c5.key.stagger: 0
+        c6.key.stagger: 0
+      rows:
+        r3:
+        r2:
+        r1:
+
+    # THUMB - 5 keys, straight row under matrix
+    thumbfan:
+      anchor:
+        - ref: matrix_c2_r3
+          shift: [0, -u]
+      columns:
+        c1:
+        c2.key:
+          spread: u
+        c3.key:
+          spread: u
+        c4.key:
+          spread: u
+        c5.key:
+          spread: u
+      rows:
+        r0:
+
+    # TRACKBALL - 55mm, right side of matrix
+    trackball:
+      key:
+        tags:
+          - trackball
+          - helper
+      anchor:
+        - ref: matrix_c6_r2
+          shift: [u/2 + 30, 0]  # 30mm from edge of col6 to ball center
+
+    # CHOC UPPER - 2 keys above trackball (Btn4, Btn5)
+    choc_upper:
+      key:
+        tags:
+          - choc_key
+      anchor:
+        - ref: trackball
+          shift: [-9, 30]  # just above ball
+      columns:
+        btn4:
+        btn5.key:
+          spread: 18
+      rows:
+        r0:
+
+    # CHOC LOWER - 4 keys below trackball (Btn1, Scroll, Btn2, Btn3)
+    choc_lower:
+      key:
+        tags:
+          - choc_key
+      anchor:
+        - ref: trackball
+          shift: [-27, -30]  # just below ball, centered
+      columns:
+        btn1:
+        scroll.key:
+          spread: 18
+        btn2.key:
+          spread: 18
+        btn3.key:
+          spread: 18
+      rows:
+        r0:
+
+outlines:
+  _keycaps:
+    - what: rectangle
+      where: [key]
+      size: 18
+      fillet: 3
+
+  _choc_keycaps:
+    - what: rectangle
+      where: [choc_key]
+      size: [17, 16]
+      fillet: 2
+
+  _trackball:
+    - what: circle
+      where: [trackball]
+      radius: 27.5
+
+  _keys:
+    - what: rectangle
+      where: /matrix/
+      size: u
+    - what: rectangle
+      where: /thumbfan/
+      size: u
+
+  preview:
+    - what: outline
+      name: _keys
+    - what: outline
+      name: _keycaps
+      operation: stack
+    - what: outline
+      name: _choc_keycaps
+      operation: stack
+    - what: outline
+      name: _trackball
+      operation: stack

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>OrthBall Mockup</title>
+<style>body{margin:0;overflow:hidden;background:#1a1a2e}canvas{display:block}</style>
+</head>
+<body>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { STEPLoader } from 'three/addons/loaders/STEPLoader.js';
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x1a1a2e);
+const camera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight, 0.1, 10000);
+camera.position.set(300, 200, 400);
+
+const renderer = new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setPixelRatio(window.devicePixelRatio);
+document.body.appendChild(renderer.domElement);
+
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+
+scene.add(new THREE.AmbientLight(0xffffff, 0.6));
+const dl = new THREE.DirectionalLight(0xffffff, 0.8);
+dl.position.set(200, 300, 200);
+scene.add(dl);
+scene.add(new THREE.GridHelper(500, 20, 0x444444, 0x333333));
+
+const loader = new STEPLoader();
+loader.load('mockup_v2.step', (obj) => {
+  scene.add(obj);
+  const box = new THREE.Box3().setFromObject(obj);
+  const center = box.getCenter(new THREE.Vector3());
+  controls.target.copy(center);
+  camera.lookAt(center);
+}, (p) => console.log('Loading...', p), (e) => {
+  console.error('STEP load failed, trying OBJ fallback', e);
+  document.body.innerHTML = '<h1 style="color:white;text-align:center;margin-top:40vh">STEP load failed. Try opening mockup_v2.step in 3dviewer.net manually.</h1>';
+});
+
+function animate(){requestAnimationFrame(animate);controls.update();renderer.render(scene,camera)}
+animate();
+window.addEventListener('resize',()=>{camera.aspect=window.innerWidth/window.innerHeight;camera.updateProjectionMatrix();renderer.setSize(window.innerWidth,window.innerHeight)});
+</script>
+</body>
+</html>

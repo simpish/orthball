@@ -1,0 +1,1116 @@
+{
+  "name": "OrthBall v1",
+  "layerCount": 1,
+  "keys": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Esc"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 0
+      },
+      "keycodes": {
+        "0": "KC_ESC"
+      }
+    },
+    {
+      "id": "2",
+      "x": 1,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Q\nLayer(4)"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 1
+      },
+      "keycodes": {
+        "0": "KC_Q"
+      }
+    },
+    {
+      "id": "3",
+      "x": 2,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "W"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 2
+      },
+      "keycodes": {
+        "0": "KC_W"
+      }
+    },
+    {
+      "id": "4",
+      "x": 3,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "E"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 3
+      },
+      "keycodes": {
+        "0": "KC_E"
+      }
+    },
+    {
+      "id": "5",
+      "x": 4,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "R"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 4
+      },
+      "keycodes": {
+        "0": "KC_R"
+      }
+    },
+    {
+      "id": "6",
+      "x": 5,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "T"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 5
+      },
+      "keycodes": {
+        "0": "KC_T"
+      }
+    },
+    {
+      "id": "7",
+      "x": 6.5,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "&\n7"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 6
+      },
+      "keycodes": {
+        "0": "KC_7"
+      }
+    },
+    {
+      "id": "8",
+      "x": 7.5,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "*\n8"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 7
+      },
+      "keycodes": {
+        "0": "KC_8"
+      }
+    },
+    {
+      "id": "9",
+      "x": 8.5,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "(\n9"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 8
+      },
+      "keycodes": {
+        "0": "KC_9"
+      }
+    },
+    {
+      "id": "10",
+      "x": 10,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Y"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 9
+      },
+      "keycodes": {
+        "0": "KC_Y"
+      }
+    },
+    {
+      "id": "11",
+      "x": 11,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "U"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 10
+      },
+      "keycodes": {
+        "0": "KC_U"
+      }
+    },
+    {
+      "id": "12",
+      "x": 12,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "I"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 11
+      },
+      "keycodes": {
+        "0": "KC_I"
+      }
+    },
+    {
+      "id": "13",
+      "x": 13,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "O"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 12
+      },
+      "keycodes": {
+        "0": "KC_O"
+      }
+    },
+    {
+      "id": "14",
+      "x": 14,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "BS"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 13
+      },
+      "keycodes": {
+        "0": "KC_BSPC"
+      }
+    },
+    {
+      "id": "15",
+      "x": 15,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "BS"
+      },
+      "matrix": {
+        "row": 0,
+        "col": 14
+      },
+      "keycodes": {
+        "0": "KC_BSPC"
+      }
+    },
+    {
+      "id": "16",
+      "x": 0,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Tab\n*Ctrl"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 0
+      },
+      "keycodes": {
+        "0": "KC_TAB"
+      }
+    },
+    {
+      "id": "17",
+      "x": 1,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "A"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 1
+      },
+      "keycodes": {
+        "0": "KC_A"
+      }
+    },
+    {
+      "id": "18",
+      "x": 2,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "S"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 2
+      },
+      "keycodes": {
+        "0": "KC_S"
+      }
+    },
+    {
+      "id": "19",
+      "x": 3,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "D"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 3
+      },
+      "keycodes": {
+        "0": "KC_D"
+      }
+    },
+    {
+      "id": "20",
+      "x": 4,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "F"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 4
+      },
+      "keycodes": {
+        "0": "KC_F"
+      }
+    },
+    {
+      "id": "21",
+      "x": 5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "G"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 5
+      },
+      "keycodes": {
+        "0": "KC_G"
+      }
+    },
+    {
+      "id": "22",
+      "x": 6.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "$\n4"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 6
+      },
+      "keycodes": {
+        "0": "KC_4"
+      }
+    },
+    {
+      "id": "23",
+      "x": 7.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "%\n5"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 7
+      },
+      "keycodes": {
+        "0": "KC_5"
+      }
+    },
+    {
+      "id": "24",
+      "x": 8.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "*\n6"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 8
+      },
+      "keycodes": {
+        "0": "KC_6"
+      }
+    },
+    {
+      "id": "25",
+      "x": 10,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "H"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 9
+      },
+      "keycodes": {
+        "0": "KC_H"
+      }
+    },
+    {
+      "id": "26",
+      "x": 11,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "J"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 10
+      },
+      "keycodes": {
+        "0": "KC_J"
+      }
+    },
+    {
+      "id": "27",
+      "x": 12,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "K"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 11
+      },
+      "keycodes": {
+        "0": "KC_K"
+      }
+    },
+    {
+      "id": "28",
+      "x": 13,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "L"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 12
+      },
+      "keycodes": {
+        "0": "KC_L"
+      }
+    },
+    {
+      "id": "29",
+      "x": 14,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "P"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 13
+      },
+      "keycodes": {
+        "0": "KC_P"
+      }
+    },
+    {
+      "id": "30",
+      "x": 15,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": ";"
+      },
+      "matrix": {
+        "row": 1,
+        "col": 14
+      },
+      "keycodes": {
+        "0": "KC_SCLN"
+      }
+    },
+    {
+      "id": "31",
+      "x": 0,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "*Shift"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 0
+      },
+      "keycodes": {
+        "0": "KC_LSFT"
+      }
+    },
+    {
+      "id": "32",
+      "x": 1,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Z"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 1
+      },
+      "keycodes": {
+        "0": "KC_Z"
+      }
+    },
+    {
+      "id": "33",
+      "x": 2,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "X"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 2
+      },
+      "keycodes": {
+        "0": "KC_X"
+      }
+    },
+    {
+      "id": "34",
+      "x": 3,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "C"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 3
+      },
+      "keycodes": {
+        "0": "KC_C"
+      }
+    },
+    {
+      "id": "35",
+      "x": 4,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "V"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 4
+      },
+      "keycodes": {
+        "0": "KC_V"
+      }
+    },
+    {
+      "id": "36",
+      "x": 5,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "B"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 5
+      },
+      "keycodes": {
+        "0": "KC_B"
+      }
+    },
+    {
+      "id": "37",
+      "x": 6.5,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "!\n1"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 6
+      },
+      "keycodes": {
+        "0": "KC_1"
+      }
+    },
+    {
+      "id": "38",
+      "x": 7.5,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "@\n2"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 7
+      },
+      "keycodes": {
+        "0": "KC_2"
+      }
+    },
+    {
+      "id": "39",
+      "x": 8.5,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "#\n3"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 8
+      },
+      "keycodes": {
+        "0": "KC_3"
+      }
+    },
+    {
+      "id": "40",
+      "x": 10,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "N"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 9
+      },
+      "keycodes": {
+        "0": "KC_N"
+      }
+    },
+    {
+      "id": "41",
+      "x": 11,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "M"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 10
+      },
+      "keycodes": {
+        "0": "KC_M"
+      }
+    },
+    {
+      "id": "42",
+      "x": 12,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "<"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 11
+      },
+      "keycodes": {
+        "0": "KC_COMM"
+      }
+    },
+    {
+      "id": "43",
+      "x": 13,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": ">"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 12
+      },
+      "keycodes": {
+        "0": "KC_DOT"
+      }
+    },
+    {
+      "id": "44",
+      "x": 14,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "?/"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 13
+      },
+      "keycodes": {
+        "0": "KC_SLSH"
+      }
+    },
+    {
+      "id": "45",
+      "x": 15,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Shift*"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 14
+      },
+      "keycodes": {
+        "0": "KC_RSFT"
+      }
+    },
+    {
+      "id": "46",
+      "x": 16,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Mouse\nBtn4"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 15
+      },
+      "keycodes": {
+        "0": "KC_BTN4"
+      }
+    },
+    {
+      "id": "47",
+      "x": 17,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Mouse\nBtn5"
+      },
+      "matrix": {
+        "row": 2,
+        "col": 16
+      },
+      "keycodes": {
+        "0": "KC_BTN5"
+      }
+    },
+    {
+      "id": "48",
+      "x": 0,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "*Alt\nSpace"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 0
+      },
+      "keycodes": {
+        "0": "KC_LALT"
+      }
+    },
+    {
+      "id": "49",
+      "x": 1,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "*Win/Cmd\nSpace"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 1
+      },
+      "keycodes": {
+        "0": "KC_LGUI"
+      }
+    },
+    {
+      "id": "50",
+      "x": 2,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Space\nLayer(2)"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 2
+      },
+      "keycodes": {
+        "0": "KC_SPC"
+      }
+    },
+    {
+      "id": "51",
+      "x": 3,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Esc"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 3
+      },
+      "keycodes": {
+        "0": "KC_ESC"
+      }
+    },
+    {
+      "id": "52",
+      "x": 4,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "*Alt"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 4
+      },
+      "keycodes": {
+        "0": "KC_LALT"
+      }
+    },
+    {
+      "id": "53",
+      "x": 5,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Space\n*Ctrl"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 5
+      },
+      "keycodes": {
+        "0": "KC_SPC"
+      }
+    },
+    {
+      "id": "54",
+      "x": 6.5,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Space"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 6
+      },
+      "keycodes": {
+        "0": "KC_SPC"
+      }
+    },
+    {
+      "id": "55",
+      "x": 10,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Enter\nLayer(3)"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 7
+      },
+      "keycodes": {
+        "0": "KC_ENT"
+      }
+    },
+    {
+      "id": "56",
+      "x": 11,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "*Shift"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 8
+      },
+      "keycodes": {
+        "0": "KC_LSFT"
+      }
+    },
+    {
+      "id": "57",
+      "x": 12,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "F24\n*Win/Cmd"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 9
+      },
+      "keycodes": {
+        "0": "KC_F24"
+      }
+    },
+    {
+      "id": "58",
+      "x": 13,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Enter"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 10
+      },
+      "keycodes": {
+        "0": "KC_ENT"
+      }
+    },
+    {
+      "id": "59",
+      "x": 14,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Mouse\nBtn1"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 11
+      },
+      "keycodes": {
+        "0": "KC_BTN1"
+      }
+    },
+    {
+      "id": "60",
+      "x": 15,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Scroll\nMode"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 12
+      },
+      "keycodes": {
+        "0": "KC_BTN2"
+      }
+    },
+    {
+      "id": "61",
+      "x": 16,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Mouse\nBtn2"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 13
+      },
+      "keycodes": {
+        "0": "KC_BTN2"
+      }
+    },
+    {
+      "id": "62",
+      "x": 17,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Mouse\nBtn3"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 14
+      },
+      "keycodes": {
+        "0": "KC_BTN3"
+      }
+    },
+    {
+      "id": "63",
+      "x": 16,
+      "y": 0.5,
+      "width": 3,
+      "height": 3,
+      "legend": {
+        "center": "●\nTrackball"
+      },
+      "matrix": {
+        "row": -1,
+        "col": -1
+      },
+      "keycodes": {}
+    },
+    {
+      "id": "1771748610135",
+      "x": 7.5,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Space"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 6
+      },
+      "keycodes": {
+        "0": "KC_SPC"
+      }
+    },
+    {
+      "id": "1771748611496",
+      "x": 8.5,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "legend": {
+        "center": "Space"
+      },
+      "matrix": {
+        "row": 3,
+        "col": 6
+      },
+      "keycodes": {
+        "0": "KC_SPC"
+      }
+    }
+  ],
+  "metadata": {
+    "author": "shudai",
+    "description": "OrthBall v1 - Ortholinear split keyboard with trackball and numpad",
+    "source": "KLE",
+    "createdAt": "2026-02-22",
+    "modified": "2026-02-22T08:24:54.661Z"
+  }
+}

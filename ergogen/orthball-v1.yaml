@@ -1,0 +1,166 @@
+# OrthBall v1 - Ergogen config
+# Corneベース → オルソリニア化 + トラックボール
+# 2026-02-22
+#
+# 左手: 6col x 3row + thumb 5key (MX)
+# 右手: 6col x 3row + thumb 5key (MX) + trackball + choc 6key
+# 中央: テンキー 3x4 (別PCB)
+
+points:
+  key:
+    tags:
+      - key
+    footprint: mx  # MX hotswap
+
+  zones:
+    # ============================================================
+    # LEFT/RIGHT MAIN MATRIX - 6 columns x 3 rows
+    # stagger全部0 = オルソリニア
+    # ============================================================
+    matrix:
+      anchor:
+        shift: [150, -150]
+      columns:
+        # Col1: outer pinky (Esc/Tab/Shift)
+        c1:
+        # Col2: pinky (Q/A/Z)
+        c2:
+        # Col3: ring (W/S/X)
+        c3.key.stagger: 0  # was u/4, now ortho
+        # Col4: middle (E/D/C)
+        c4.key.stagger: 0  # was u/8, now ortho
+        # Col5: index (R/F/V)
+        c5.key.stagger: 0  # was -u/8, now ortho
+        # Col6: inner (T/G/B)
+        c6.key.stagger: 0  # was -u/8, now ortho
+      rows:
+        r3:  # bottom row (Shift/Z/X/C/V/B)
+        r2:  # home row (Tab/A/S/D/F/G)
+        r1:  # top row (Esc/Q/W/E/R/T)
+
+    # ============================================================
+    # THUMB CLUSTER - 5 keys
+    # KLE配列: *Alt, *Win/Space, Space/L(2), Esc, *Alt/Space, Space/*Ctrl
+    # ============================================================
+    thumbfan:
+      anchor:
+        - ref: matrix_c3_r3
+          shift: [0, -22]
+      columns:
+        c1:
+        c2.key:
+          spread: u
+        c3.key:
+          spread: u
+        c4.key:
+          spread: u
+        c5.key:
+          spread: u
+      rows:
+        r0:
+
+    # ============================================================
+    # TRACKBALL ZONE (right hand only)
+    # 55mm ball - positioned outside column 6
+    # ケースはCadQueryで設計、ここは位置のみ定義
+    # ============================================================
+    trackball:
+      key:
+        tags:
+          - trackball
+          - helper
+      anchor:
+        - ref: matrix_c6_r2  # home row, inner column
+          shift: [u + 30, 0]  # 55mm ball center (~30mm from last key edge)
+
+    # ============================================================
+    # CHOC BUTTONS around trackball (6 keys)
+    # Upper 2: Btn4(戻る), Btn5(進む)
+    # Lower 4: Btn1(左クリ), Scroll, Btn2(右クリ), Btn3(中クリ)
+    # ============================================================
+    trackball_buttons_upper:
+      key:
+        tags:
+          - choc_key
+        footprint: choc
+      anchor:
+        - ref: trackball
+          shift: [-10, 32]  # above trackball
+      columns:
+        btn4:
+        btn5.key:
+          spread: 18  # choc spacing
+      rows:
+        r0:
+
+    trackball_buttons_lower:
+      key:
+        tags:
+          - choc_key
+        footprint: choc
+      anchor:
+        - ref: trackball
+          shift: [-18, -32]  # below trackball
+      columns:
+        btn1:
+        scroll.key:
+          spread: 18
+        btn2.key:
+          spread: 18
+        btn3.key:
+          spread: 18
+      rows:
+        r0:
+
+    # MCU placement
+    mcu:
+      key:
+        tags:
+          - helper
+      anchor:
+        - ref: matrix_c6_r1
+          shift: [u/2 + 18/2 + 1.6, u/2 - 33/2]
+
+outlines:
+  # Keycap preview
+  _keycaps:
+    - what: rectangle
+      where: [key]
+      size: 18
+      fillet: 3
+
+  # Choc keycap preview (smaller)
+  _choc_keycaps:
+    - what: rectangle
+      where: [choc_key]
+      size: [17, 16]
+      fillet: 2
+
+  # Trackball circle preview
+  _trackball:
+    - what: circle
+      where: [trackball]
+      radius: 27.5  # 55mm / 2
+
+  # Board outline - main keys area
+  _keys:
+    - what: rectangle
+      where: /matrix/
+      size: u
+    - what: rectangle
+      where: /thumbfan/
+      size: u
+
+  # Full preview
+  preview:
+    - what: outline
+      name: _keys
+    - what: outline
+      name: _keycaps
+      operation: stack
+    - what: outline
+      name: _choc_keycaps
+      operation: stack
+    - what: outline
+      name: _trackball
+      operation: stack
