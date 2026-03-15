@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "orthball")(type "KiCad")(uri "${KIPRJMOD}/libs/orthball.kicad_sym")(options "")(descr "OrthBall custom symbols"))
+)
