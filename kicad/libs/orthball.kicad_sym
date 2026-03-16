@@ -52,7 +52,7 @@
 		(symbol "RP2040-Zero_0_1"
 			(rectangle
 				(start -16.51 29.21)
-				(end 16.51 -29.21)
+				(end 16.51 -31.75)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -343,13 +343,23 @@
 					(effects (font (size 1.27 1.27)))
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -19.05 -25.4 0)
 				(length 2.54)
-				(name "GND_B"
+				(name "GP24"
 					(effects (font (size 1.27 1.27)))
 				)
 				(number "B9"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 -27.94 0)
+				(length 2.54)
+				(name "GP25"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B10"
 					(effects (font (size 1.27 1.27)))
 				)
 			)

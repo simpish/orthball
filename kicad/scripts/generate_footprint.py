@@ -26,13 +26,13 @@ def uid():
     return str(uuid_mod.uuid4())
 
 # Module dimensions (mm) - VERIFY WITH PHYSICAL MEASUREMENT
-MODULE_W = 18.0    # Width
-MODULE_H = 23.5    # Height (USB-C at top = most negative Y)
-ROW_SPACING = 15.24  # Distance between left and right pin rows
-PIN_PITCH = 2.54    # Through-hole pin pitch
-N_SIDE_PINS = 10    # Pins per side
-N_BOTTOM_PADS = 9   # Castellated pads on bottom edge
-BOTTOM_PAD_PITCH = 1.5  # Pitch of bottom castellated pads
+MODULE_W = 18.0    # Width (measured: 18mm)
+MODULE_H = 24.0    # Height (measured: 24mm, USB-C at top)
+ROW_SPACING = 15.24  # Distance between left and right pin rows (measured: ~15.24mm)
+PIN_PITCH = 2.54    # Through-hole pin pitch (standard)
+N_SIDE_PINS = 10    # Pins per side (9 GPIO + 1 wraps to bottom in U-shape)
+N_BOTTOM_PADS = 10  # Pads on underside (WaveShare wiki: "10 pads underneath")
+BOTTOM_PAD_PITCH = 1.27  # Pitch of bottom pads (estimated for 10 pads in ~12mm)
 
 # Origin: bottom-left corner of module outline, Y increases upward logically
 # but in KiCad footprint coords, Y increases downward.
